@@ -1,0 +1,73 @@
+/* generale */
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  font-family: 'Questrial', sans-serif;
+}
+.body{
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  width: 63%;
+  padding: 80px 60px 50px 60px;
+  margin: auto;
+  margin-top:30px;
+}
+
+/* Logo e Titolo */
+img{
+  width:250px;
+  margin: 10px;
+}
+header > div{
+  font-weight: 600;
+}
+
+/* Collegamenti di navigazione */
+header{
+  text-align: center;
+  color: rgb(0, 221, 0);
+  font-size: 30px;
+}
+nav{
+  background-color: rgb(0, 221, 0);
+  padding: 10px 0px 10px 0px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Lista monopattini */
+section{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section div{
+  margin-top: 5px;
+}
+.model{
+  font-size: 20px;
+  font-weight: 600;
+}
+.posizione:before{
+  content: "\21A6";
+}
+
+/* Barre livello di carica batteria */
+.carica{
+  margin: 0px;
+  border-radius: 5px;
+  border: 13px solid;
+}
+.carica.media{
+  width: 370px;
+  border-color: #f5b453;
+}
+.carica.piena{
+  width: 600px;
+  border-color: #1ec31e;
+}
+.carica.vuota{
+  width: 120px;
+  border-color: #be4141;
+}
